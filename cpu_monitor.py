@@ -5,8 +5,8 @@ import gi
 import threading
 gi.require_version('Gtk', '3.0')
 from gi.repository import GLib, Gtk
-gi.require_version('GdkX11', '3.0')
-from gi.repository import GdkX11
+#gi.require_version('GdkX11', '3.0')
+#from gi.repository import GdkX11
 import ConfigParser
 import os.path
 import os
